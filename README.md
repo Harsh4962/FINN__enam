@@ -38,11 +38,8 @@ model) does the arithmetic and comparisons.
 | `finn/risk_grounding.py` | Fail-closed grounding for risk/outlook questions |
 | `finn/store.py`, `finn/live_feed.py`, `finn/alerts.py` | Announcement store with dedupe/revisions, live feed, threshold alerts |
 | `finn/budget.py` | Fail-closed spend guard for paid model calls (see below) |
-| `backend/` | Earlier foundation: strict schemas, SQLite cache/telemetry, pull/push engines |
 | `evals/` | Offline pydantic-evals scenario suite and its README |
-| `tests/` | Unit and integration tests plus recorded fixtures |
 | `docs/FOUNDATION.md` | Original step-by-step foundation document |
-| `AUDIT.md`, `PROPOSED_FIX_REVIEW.md`, `verification/` | Audit trail of the foundation work |
 
 ## Setup
 
